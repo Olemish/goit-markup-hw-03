@@ -241,6 +241,7 @@ body {
   padding-bottom: 94px;
   padding-top: ;
   margin: 0;
+  justify-content: space-between;
  
 }
 .list-work-foto{
@@ -385,8 +386,15 @@ body {
 }
 
 .conteiner-footer {
- 
-  background-color: var(--background-color-footer);
+ display: block;
+ background-color: var(--background-color-footer);
+ }
+
+ .conteiner-footer-logo{
+   display: block;
+   padding: 0;
+   margin: 0;
+
  }
 
 .logo-footer {
@@ -398,14 +406,12 @@ body {
 }
 
 .list-link-footer {
-  
-  padding-bottom: 60px;
+ padding-bottom: 60px;
 
 }
 
 .list-link-footer:last-child {
   margin-top: 9px;
- 
  
 }
 
@@ -423,20 +429,6 @@ body {
 }
 
 /* Portfolio hero */
-
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
 
 .visually-hidden {
   position: absolute;
