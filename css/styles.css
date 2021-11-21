@@ -411,13 +411,13 @@ body {
 }
 
 .list-link-footer:last-child {
-  margin-top: 9px;
+  padding-top: 9px;
  
 }
 
 .address {
   display: flex;
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 
   font-style: normal;
   font-weight: normal;
