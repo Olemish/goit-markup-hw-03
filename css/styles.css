@@ -410,6 +410,10 @@ body {
   color: var(--footer-text-color);
 }
 
+.list-link-footer {
+  display: block;
+}
+
 .footer-link {
   display: block;
   margin-bottom: 9px;
@@ -419,14 +423,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-second-link-color);
   background-color: #2f303a;
-}
-
-.list-link-footer {
-  display: block;
-}
-
-.list-link-footer: last-child {
-  margin-bottom: 0;
 }
 
 /* Portfolio hero */
