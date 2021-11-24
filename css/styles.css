@@ -29,6 +29,15 @@ body {
   margin: 0;
 }
 
+P h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 .list {
   list-style: none;
   text-decoration: none;
@@ -51,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .list-btn .title-btn + .title-btn {
@@ -66,27 +76,23 @@ body {
   color: var(--second-link-color);
 }
 
-.conteiner-header {
+.header {
   display: flex;
   padding: 24px 215px;
-  margin-left: 0;
-  margin-right: 0;
-
-  align-items: center;
-  justify-content: space-around;
   border-bottom: 1px solid var(--border-color-head);
 }
 
 .header-main {
   display: flex;
   align-items: center;
-  margin: 0;
+  justify-content: space-around;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .link-contacts {
   display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
+
   align-items: center;
   margin-left: auto;
 
@@ -237,6 +243,8 @@ body {
   display: block;
   text-align: center;
   padding-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .hero-title-work {
@@ -477,12 +485,11 @@ body {
   margin-bottom: 0;
 }
 
+.cards-portfolio:nth-child(-n + 3) {
+  margin-top: 0;
+}
 .cards-portfolio:nth-child(3n) {
   margin-right: 0;
-}
-
-.cards-portfolio:nth-child(-n + 3) {
-  margin-top: 56px;
 }
 
 .cards-portfolio > .card-portfolio-footer {
