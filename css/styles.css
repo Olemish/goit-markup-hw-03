@@ -162,10 +162,23 @@ body {
 .hero-main {
   text-align: center;
   justify-content: center;
-  margin: 0;
-  padding: 0;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--background-color-footer);
+}
+
+.main-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  /* background-color: var(--third-text-color); */
 }
 
 .hero-btn {
@@ -251,20 +264,6 @@ body {
 
 .list-work .list-work-foto + .list-work-foto {
   margin-left: 30px;
-}
-
-.main-title {
-  margin-top: 0;
-  margin-bottom: 30px;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-  background-color: var(--third-text-color);
 }
 
 .title-btn-portfolio {
