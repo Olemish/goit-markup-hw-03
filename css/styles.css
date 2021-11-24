@@ -384,6 +384,8 @@ body {
   background-color: var(--background-color-footer);
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .conteiner-footer-logo {
